@@ -21,9 +21,9 @@ internal class Program
             foreach (int number in fib)
             {
 
-            I++;
+           
             Console.WriteLine("Fibonacci number (" + I.ToString() + ") = " + number.ToString());
-            
+             I++;
         }
         
         Console.WriteLine("");
